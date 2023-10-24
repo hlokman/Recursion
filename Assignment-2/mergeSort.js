@@ -14,35 +14,3 @@ function mergeSort(array) {
 
   return sortedArray;
 }
-
-/*function mergeSort(array) {
-  if (array.length < 2) {
-    return array;
-  } else if (array.length == 2) {
-    if (array.slice(0, array.length / 2) > array.slice(array.length / 2)) {
-      return array
-        .slice(array.length / 2)
-        .concat(array.slice(0, array.length / 2));
-    } else if (
-      array.slice(0, array.length / 2) < array.slice(array.length / 2)
-    ) {
-      return array
-        .slice(0, array.length / 2)
-        .concat(array.slice(array.length / 2));
-    }
-  }
-
-  if (array.length % 2 === 0) {
-    return mergeSort(array.slice(0, array.length / 2)).concat(
-      mergeSort(array.slice(array.length / 2))
-    );
-  } else if (array.length % 2 === 1) {
-    return mergeSort(array.slice(0, array.length / 2 + 1)).concat(
-      mergeSort(array.slice(array.length / 2 + 1))
-    );
-  }
-}
-
-function merge(leftPar, rightPart) {
-
-}*/
